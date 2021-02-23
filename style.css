@@ -7,9 +7,8 @@ body {
 .section {
     position: relative;
     margin: 100px 0;
-    padding: 100px 0;
-    background-color: #F9F9F9;
     overflow: hidden;
+    background-image: url(background.jpg);
 }
 
 .nobg {
@@ -18,8 +17,8 @@ body {
 
 
 
-.nomargin {
-    margin: 0 !important;
+.nomargin {  
+    margin: 0px !important;
 }
 
 
@@ -28,6 +27,7 @@ body {
     float: none !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    margin-top: 100px;
 }
 
 .card {
@@ -63,6 +63,7 @@ form {
 
 form .col_full {
     margin-bottom: 25px;
+    
 }
 
 .col_full {
@@ -91,7 +92,7 @@ a {
     background-color: #3ec7b5;
     width: 100px;
     height: 100px;
-    border-radius: 50%;
+    border-radius: 10%;
     margin: 0 auto;
 }
 
@@ -143,8 +144,11 @@ label{
     font-weight: bold;
 }
 
-input{
-    border-radius: 25px;
-    box-shadow: inset 8px 8px 8px #cbced1,inset -8px -8px 8px #fff;
+.dede{
+    box-sizing: border-box;
+    border: 2px solid #efefef;
+    border-radius: 4px;
+    background-color: #efefef;
+    resize: none;
 }
 
